@@ -1,0 +1,43 @@
+# ============================================================
+# BPU NEXUS - GIT IGNORE
+# ============================================================
+
+# Environment files
+# These can contain passwords, API keys, tokens and secrets.
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test/cache files
+.pytest_cache/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+# Google OAuth credentials and tokens
+credentials.json
+token.json
+client_secret*.json
+
+# Additional test and coverage output
+.coverage
+htmlcov/
+
+# Google OAuth credentials and tokens
+credentials.json
+token.json
+client_secret*.json
+
+# Additional test and coverage output
+.coverage
+htmlcov/
